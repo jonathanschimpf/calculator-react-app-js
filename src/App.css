@@ -1,0 +1,149 @@
+* {
+  font-family: sans-serif;
+}
+input,
+button {
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 5px;
+}
+button:hover {
+  background: rgb(255, 16, 56);
+  color: white;
+
+}
+button:active,
+button.dafinalz:nth-last-child(2):active,
+button.dafinalz:nth-last-child(1):active {
+  background: blue;
+  color: white;
+}
+
+button:nth-last-child(2),
+button:nth-last-child(1) {
+  background: tomato;
+  color: white;
+}
+
+button:nth-last-child(2):hover ,
+button:nth-last-child(1):hover {
+  background: rgb(255, 16, 56);
+  color: white;
+}
+
+input {
+  display: block;
+  margin-bottom: 20px;
+}
+button {
+  border: 1px solid gray;
+  background: whitesmoke;
+  margin-right: 5px;
+}
+
+.inlineBlock {
+  display: inline-block;
+}
+
+h3 { 
+  padding-right: 0.5vw;
+}
+.calculatorimage {
+  width: 500px;
+  outline: 0.8em black solid;
+  padding-left: 0.9em;
+  outline-offset: -0.65em;
+}
+
+.paddingLeft {
+  padding-left: 5.2vw;
+}
+
+@media screen and (max-width: 586px) {
+  .calculatorimage {
+    width:93%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .calculatorimage {
+    width:90%;
+  }
+}
+@media screen and (max-width: 588px) {
+  h1 {
+    font-size: 22pt;
+  }
+}
+
+@media screen and (max-width: 539px) {
+  h1 {
+    font-size: 21pt;
+  }
+}
+
+@media screen and (max-width: 514px) {
+  h1 {
+    font-size: 20pt;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  h1 {
+    font-size: 19pt;
+  }
+}
+
+@media screen and (max-width: 464px) {
+  h1 {
+    font-size: 18pt;
+  }
+}
+
+
+@media screen and (max-width: 439px) {
+  h1 {
+    font-size: 17pt;
+  }
+}
+
+@media screen and (max-width: 415px) {
+  h1 {
+    font-size: 16pt;
+  }
+}
+
+@media screen and (max-width: 391px) {
+  h1 {
+    font-size: 15pt;
+  }
+}
+
+@media screen and (max-width: 367px) {
+  h1 {
+    font-size: 14pt;
+  }
+}
+
+@media screen and (max-width: 343px) {
+  h1 {
+    font-size: 13pt;
+  }
+}
+
+@media screen and (max-width: 343px) {
+  h1 {
+    font-size: 12pt;
+  }
+}
+
+@media screen and (max-width: 293px) {
+  h1 {
+    font-size: 11pt;
+  }
+}
+
+@media screen and (max-width: 269px) {
+  h1 {
+    font-size: 10pt;
+  }
+}
